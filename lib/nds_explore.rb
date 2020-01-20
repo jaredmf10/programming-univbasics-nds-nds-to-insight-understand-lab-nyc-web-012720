@@ -11,7 +11,7 @@ end
 
 
 def print_first_directors_movie_titles
-directors_database[0][:movies].each do |films| puts films[:title]
-  directors_database[0].each do |films| puts films[:movies][:worldwide_gross]
+#directors_database[0][:movies].each do |films| puts films[:title]
+directors_database[0].each do |films| puts films[:movies][:worldwide_gross]
 end
 end
